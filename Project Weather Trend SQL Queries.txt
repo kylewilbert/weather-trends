@@ -1,0 +1,19 @@
+### SQL queries
+/* Extract Global Data */
+SELECT *
+FROM global_data;
+
+/* Locate City */
+SELECT *
+FROM city_list
+WHERE country LIKE 'USA' or country LIKE 'United States';
+
+/* Confirm City */
+SELECT city_list
+FROM city_list
+WHERE country LIKE 'United States';
+
+/* Extract City Data */
+SELECT *
+FROM city_data
+WHERE city LIKE 'New York';
