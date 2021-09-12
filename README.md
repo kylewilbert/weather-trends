@@ -1,0 +1,2 @@
+# weather-trends
+practice SQL
